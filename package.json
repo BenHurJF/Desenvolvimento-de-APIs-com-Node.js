@@ -1,0 +1,22 @@
+{
+  "name": "testescypress",
+  "version": "1.0.0",
+  "description": "Testes Gespro 2.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenHurJF/Testes_Cypress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenHurJF/Testes_Cypress/issues"
+  },
+  "homepage": "https://github.com/BenHurJF/Testes_Cypress#readme",
+  "devDependencies": {
+    "cypress": "^8.3.1"
+  }
+}
