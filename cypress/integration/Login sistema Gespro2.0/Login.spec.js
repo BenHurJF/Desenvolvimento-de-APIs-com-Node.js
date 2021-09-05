@@ -13,14 +13,22 @@ describe('Acessar sistema', () => {
     });
 });
 
-describe('Inserir credencial - CPF', () => {
+describe('Inserir credenciais', () => {
     it('Inserir CPF', () => {
-        
+        //pass: 020.439.411-27
+        cy.get('#accountId').type('020.439.411-27');
     });
-});
 
-describe('Inserir credencial - Senha', () => {
+    it('Avançar', () => {
+        cy.get('.button-ok').click()
+    });
+
     it('Inserir senha', () => {
         
     });
+
+    it('Entrar', () => {
+       cy.get('#submit-button').click()
+});
+
 });
