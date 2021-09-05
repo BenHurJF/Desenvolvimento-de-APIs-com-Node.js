@@ -40,8 +40,8 @@ describe('Preencher Formulário de cadastro', () => {
     // atribuit rota = alias
     // sleep com cy.wait
     
-    //cy.server();
-    //cy.route('POST','**/ongs').as('postOng');
+    cy.server();
+    cy.route('POST','**/ongs').as('postOng');
 
     it('Cadastrar ong', () => {
         cy.get('.button').click()
