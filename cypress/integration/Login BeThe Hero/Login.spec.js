@@ -14,11 +14,11 @@ describe('Acessar sistema BeThe Hero', () => {
 
 describe('Preencher Formulário de cadastro', () => {
     it('Inserir Nome da ONG', () => {
-        cy.get('[placeholder="Nome da ONG"]').type('TestesCypress');
+        cy.get('[placeholder="Nome da ONG"]').type('Testes-Cypress');
     });
 
     it('Inserir E-email', () => {
-        cy.get('[type="email"]').type('beiujeffer@hotmail.com');
+        cy.get('[type="email"]').type('beiujeffer@gmail.com');
     });
 
     it('Inserir Whatsapp', () => {
@@ -26,25 +26,15 @@ describe('Preencher Formulário de cadastro', () => {
     });
 
     it('Informar Cidade', () => {
-        cy.get('[placeholder="Cidade"]').type('Brasília');
+        cy.get('[placeholder="Cidade"]').type('Brasilia');
     });
 
     it('UF', () => {
         cy.get('[placeholder="UF"]').type('DF');
     });
 
-
-    // routing
-    // start server com cy.server()
-    // criar rota = cy.rout()
-    // atribuit rota = alias
-    // sleep com cy.wait
-    
-    cy.server();
-    cy.route('POST','**/ongs').as('postOng');
-
     it('Cadastrar ong', () => {
-        cy.get('.button').click()
+        cy.get('.button').click();
     });
 
 });
