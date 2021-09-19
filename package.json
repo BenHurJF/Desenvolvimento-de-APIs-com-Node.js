@@ -1,5 +1,5 @@
 {
-  "name": "createapis",
+  "name": "apiscreate",
   "version": "1.0.0",
   "description": "APIs",
   "main": "index.js",
@@ -16,6 +16,5 @@
     "url": "https://github.com/BenHurJF/Testes_Cypress/issues"
   },
   "homepage": "https://github.com/BenHurJF/Testes_Cypress#readme",
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
